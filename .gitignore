@@ -1,0 +1,22 @@
+# Xcode
+#
+build/
+DerivedData/
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# Personal settings
+xcuserdata/
+
+# backups
+*.bak
+*.swp
+*.swo
+
+# OS X
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
