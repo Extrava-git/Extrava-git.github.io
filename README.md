@@ -1,6 +1,6 @@
 # Extrava — Website
 
-Marketing site for **Extrava**, the company behind `patch.` — a wearable sensor that detects IV extravasation in real time.
+Marketing site for **Extrava**, the company behind `extrava` — a wearable sensor that detects IV extravasation in real time.
 
 Built with **Next.js 14 (App Router) + TypeScript + Tailwind CSS**.
 
