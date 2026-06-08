@@ -13,7 +13,7 @@ export default function Hero() {
         </h1>
 
         <p className="mt-8 text-lg md:text-xl text-ink-300 max-w-2xl leading-relaxed">
-          <span className="text-signal-cyan font-medium">extrava</span> is a wearable sensor that watches every infusion, flags drug leakage in real time, and gives nurses the seconds they need to intervene.
+          <span className="text-signal-cyan font-medium">extrava</span> is a wearable sensor that watches every infusion, aims to flag drug leakage early, and gives nurses the critical minutes they need to intervene. Currently in development.
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row items-center gap-3">
