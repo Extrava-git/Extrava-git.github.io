@@ -14,7 +14,7 @@ export default function CTASection() {
               help us put <span className="text-signal-cyan">extrava</span> on every iv that matters.
             </h2>
             <p className="mt-6 text-lg text-ink-200 leading-relaxed">
-              we're working with oncology programs, infusion centers, and biomedical research partners to validate <span className="text-signal-cyan">extrava</span> and bring it through regulatory clearance. if that's you — let's talk.
+              we're working with oncology programs, infusion centers, and biomedical research partners to validate <span className="text-signal-cyan">extrava</span> and bring it through regulatory clearance. if that's you, lets talk!
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-start gap-3">
               <Link href="/contact" className="btn-primary">

@@ -8,10 +8,10 @@ export default function SolutionSection() {
               A continuous pair of eyes for every infusion.
             </h2>
             <p className="mt-8 text-lg text-ink-300 leading-relaxed">
-              <span className="text-signal-cyan font-medium">extrava</span> integrates advanced skin thermometry with precision pressure sensing. By monitoring physiological signatures at the site of insertion, it detects the earliest signs of leakage long before they become visible to the human eye.
+              <span className="text-signal-cyan font-medium">extrava</span> combines skin thermometry and pressure sensing to detect infusion leakage instantly, long before it's visible.
             </p>
             <p className="mt-6 text-lg text-ink-300 leading-relaxed">
-              Designed for clinical workflows, it provides real time alerts that allow nursing staff to intervene in seconds, preventing tissue damage and improving patient outcomes across oncology, pediatrics, and outpatient care.
+              Designed for clinical speed, it enables nursing staff to intervene in seconds, preventing tissue damage and improving outcomes in any care setting.
             </p>
           </div>
           <div className="relative">

@@ -1,5 +1,6 @@
 "use client";
-import Hero from "@/components/Hero";
+import Hero from "@/components/Hero"; 
+import { CinematicHero } from "@/components/CinematicHero";
 import LogoStrip from "@/components/LogoStrip";
 import ProblemStory from "@/components/ProblemStory";
 import SolutionSection from "@/components/SolutionSection";
@@ -8,6 +9,10 @@ import { GoogleGeminiEffect } from "@/components/GoogleGeminiEffect";
 import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
+import { TextRevealByWord } from "@/components/TextReveal";
+import { LandingAccordionItem } from "@/components/LandingAccordionItem";
+import EarbudShowcase from "@/components/EarbudShowcase";
+import { InteractiveRobotSpline } from "@/components/InteractiveRobot";
 
 export default function HomePage() {
   const ref = React.useRef(null);
@@ -59,6 +64,7 @@ export default function HomePage() {
         ) : null}
       </AnimatePresence>
       <Hero />
+      <TextRevealByWord text="Intelligent infusion monitoring technology that keeps you safe." />
       <div
         className="h-[400vh] bg-ink-950 w-full relative overflow-clip"
         ref={ref}
@@ -77,7 +83,11 @@ export default function HomePage() {
       </div>
       <LogoStrip />
       <ProblemStory />
+      <LandingAccordionItem />
       <SolutionSection />
+      <CinematicHero />
+      <EarbudShowcase />
+      {/* <InteractiveRobotSpline scene="https://prod.spline.design/your-scene-id/scene.splinecode" className="h-[500px] w-full" /> */}
       <CTASection />
     </>
   );
