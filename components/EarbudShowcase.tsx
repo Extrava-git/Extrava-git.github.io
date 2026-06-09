@@ -94,7 +94,7 @@ const ANIMATIONS: Record<string, Variants> = {
     },
     exit: { opacity: 0, y: -10, filter: 'blur(5px)' },
   },
-  image: (): Variants => ({
+  image: {
     initial: {
       opacity: 0,
       scale: 0.9,
@@ -112,7 +112,7 @@ const ANIMATIONS: Record<string, Variants> = {
       filter: 'blur(10px)',
       transition: { duration: 0.25 },
     },
-  }),
+  },
 };
 
 // =========================================
@@ -131,7 +131,7 @@ const ProductVisual = ({ data }: { data: ProductData }) => (
       <AnimatePresence mode="wait">
         <motion.div
           key={data.id}
-          variants={ANIMATIONS.image()}
+          variants={ANIMATIONS.image}
           initial="initial"
           animate="animate"
           exit="exit"
