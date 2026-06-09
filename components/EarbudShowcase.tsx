@@ -72,7 +72,7 @@ const PRODUCT_DATA: Record<ProductId, ProductData> = {
 // 2. ANIMATION VARIANTS
 // =========================================
 
-const ANIMATIONS = {
+const ANIMATIONS: Record<string, Variants> = {
   container: {
     hidden: { opacity: 0 },
     visible: {
@@ -90,7 +90,7 @@ const ANIMATIONS = {
       opacity: 1,
       y: 0,
       filter: 'blur(0px)',
-      transition: { type: 'spring', stiffness: 100, damping: 20 },
+      transition: { type: 'spring', stiffness: 100, damping: 20 } as any,
     },
     exit: { opacity: 0, y: -10, filter: 'blur(5px)' },
   },
@@ -104,7 +104,7 @@ const ANIMATIONS = {
       opacity: 1,
       scale: 1,
       filter: 'blur(0px)',
-      transition: { type: 'spring', stiffness: 260, damping: 20 },
+      transition: { type: 'spring', stiffness: 260, damping: 20 } as any,
     },
     exit: {
       opacity: 0,
